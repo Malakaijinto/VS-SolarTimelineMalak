@@ -584,6 +584,7 @@ GameObject:
   - component: {fileID: 534694537}
   - component: {fileID: 534694536}
   - component: {fileID: 534694539}
+  - component: {fileID: 534694540}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -699,6 +700,31 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!320 &534694540
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534694535}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 44839b2f2f0aa7847b114c89a876ae6d, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 7632573873520377429, guid: 44839b2f2f0aa7847b114c89a876ae6d, type: 2}
+    value: {fileID: 1777438912}
+  - key: {fileID: 7276189535747632317, guid: 44839b2f2f0aa7847b114c89a876ae6d, type: 2}
+    value: {fileID: 1795978977}
+  - key: {fileID: -980519938278155167, guid: 44839b2f2f0aa7847b114c89a876ae6d, type: 2}
+    value: {fileID: 805102000}
+  - key: {fileID: -7694868179453327824, guid: 44839b2f2f0aa7847b114c89a876ae6d, type: 2}
+    value: {fileID: 1141936832}
+  m_ExposedReferences:
+    m_References: []
 --- !u!1 &573070680
 GameObject:
   m_ObjectHideFlags: 0
